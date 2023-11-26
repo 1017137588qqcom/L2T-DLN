@@ -19,8 +19,6 @@ import time
 import argparse
 import os
 from utils import get_flat_parameters, set_parameters, getPrototype, reweight, DataLoaderX, AverageMeter, accuracy
-from torchvision.datasets import ImageNet
-from pytorch_metric_learning import distances, losses, miners, reducers, testers
 # plt.switch_backend('agg')
 
 parser = argparse.ArgumentParser(description='PyTorch Radiomics Training')
